@@ -25,7 +25,7 @@ function Header() {
           <span className="text-sm inline-block">Orders</span>
         </div>
 
-        <div className="pl-4" onClick={() => navigate("/checkout")}>
+        <div className="pl-4 mr-4" onClick={() => navigate("/checkout")}>
           <ShoppingCartIcon fontSize="large" className="m-3" />
           <span>{basket.length}</span>
         </div>
